@@ -104,7 +104,7 @@ header {
 }
 
 .head-container {
-  background-image: url(./images/bg-pattern-intro.svg);
+  background-image: url(bg-pattern-intro.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -495,7 +495,7 @@ header {
   }
   .img-container2 {
     position: relative;
-    background-image: url(./images/illustration-editor-mobile.svg);
+    background-image: url(illustration-editor-mobile.svg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 20rem;
@@ -510,7 +510,7 @@ header {
   }
   .phones {
     position: absolute;
-    background-image: url(./images/illustration-phones.svg);
+    background-image: url(illustration-phones.svg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 20rem;
@@ -537,7 +537,7 @@ header {
   }
   #free {
     position: relative !important;
-    background-image: url(./images/illustration-laptop-mobile.svg);
+    background-image: url(illustration-laptop-mobile.svg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 20rem;
