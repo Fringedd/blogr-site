@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | [Blogr]</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <header class="heads">
+        <div class="hamburger">
+          <img src="./images/icon-hamburger.svg" alt="">
+        </div>
+        <div class="close hidden">
+          <img src="./images/icon-close.svg" alt="">
+        </div>
+        <div class="transperent"></div>
+
+        <div class="head-container"></div>
+        <div class="content-holder">
+          
+          <div class="mob-menu hidden">
+            <div class="mob-features">
+              <ul>
+                <li id="mob-product">
+                  <a href="#">Product</a>
+                  <img src="./images/icon-arrow-dark.svg"  id="mob-arrow1" alt="">
+                </li>
+                <div class="modals-mob hidden" id="modal-mob1">
+                  <a href="#">Overview</a>
+                  <br />
+                  <br>
+                  <a href="#">Pricing </a>
+                  <br />
+                  <br>
+                  <a href="#">Marketplace</a>
+                  <br />
+                  <br>
+                  <a href="#">Features</a>
+                  <br />
+                  <br>
+                  <a href="#">Integrations</a>
+                </div>
+                <li id="mob-comp">
+                  <a href="#">Company</a>
+                  <img src="./images/icon-arrow-dark.svg" id="mob-arrow2" alt="">
+                </li>
+                <div class="modals-mob hidden" id="modal-mob2">
+                  <a href="#">About</a>
+                  <br />
+                  <br />
+                  <a href="#">Team</a>
+                  <br />
+                  <br />
+                  <a href="#"> Blog </a>
+                  <br />
+                  <br />
+                  <a href="#">Careers</a>
+                </div>
+                <li id="mob-connect">
+                  <a href="#" >Connect</a>
+                  <img src="./images/icon-arrow-dark.svg" id="mob-arrow3" alt="">
+                </li>
+                <div class="modals-mob hidden" id="modal-mob3">
+                  <a href="#">Connect</a>
+                  <br />
+                  <br />
+                  <a href="#"> Contact </a>
+                  <br />
+                  <br />
+                  <a href="#">Newsletter </a>
+                </div>
+              </ul>
+            </div>
+            <div class="mobile-login">
+              <a href="#">Login</a>
+              <a href="#" id="mob-sign">Sign Up</a>
+            </div>
+            
+          </div>
+          <div class="left-side">
+            <div class="img-container">
+              <img src="./images/logo.svg" alt="" />
+            </div>
+            <ul class="holdy">
+              <li id="li1" class="lis">
+                <a href="#">Product</a>
+
+                <img
+                  src="./images/icon-arrow-light.svg"
+                  alt=""
+                  class="imigy"
+                  id="arrow1"
+                />
+              </li>
+              <li id="li2" class="lis">
+                <a href="#">Company</a>
+                <img
+                  src="./images/icon-arrow-light.svg"
+                  alt=""
+                  class="imigy"
+                  id="arrow2"
+                />
+              </li>
+              <li id="li3" class="lis">
+                <a href="#">Connect</a>
+                <img
+                  src="./images/icon-arrow-light.svg"
+                  alt=""
+                  class="imigy"
+                  id="arrow3"
+                />
+              </li>
+            </ul>
+            <div class="modals hidden" id="modal1">
+              <a href="#">Overview</a>
+              <br />
+              <br />
+              <a href="#">Pricing </a>
+              <br />
+              <br />
+              <a href="#">Marketplace</a>
+              <br />
+              <br />
+              <a href="#">Features</a>
+              <br />
+              <br />
+              <a href="#">Integrations</a>
+            </div>
+            <div class="modals hidden" id="modal2">
+              <a href="#">About</a>
+              <br />
+              <br />
+              <a href="#">Team</a>
+              <br />
+              <br />
+              <a href="#"> Blog </a>
+              <br />
+              <br />
+              <a href="#">Careers</a>
+            </div>
+            <div class="modals hidden" id="modal3">
+              <a href="#">Connect</a>
+              <br />
+              <br />
+              <a href="#"> Contact </a>
+              <br />
+              <br />
+              <a href="#">Newsletter </a>
+            </div>
+          </div>
+          <div class="right-side">
+            <nav class="navigation">
+              <a href="#">Login</a>
+              <a href="#" id="sign">Sign Up</a>
+            </nav>
+          </div>
+        </div>
+        <div class="header-bottom">
+          <h1>A modern publishing platform</h1>
+          <h4>Grow your audience and build your online brand</h4>
+          <div class="containerr">
+            <a href="#" id="sign2">Start for Free</a>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </header>
+      <div class="section1">
+        <h1>Designed for the future</h1>
+        <div class="content1">
+          <div class="leftOne">
+            <h2>Introducing an extensible editor</h2>
+            <p>
+              Blogr features an exceedingly intuitive interface which lets you
+              focus on one thing: creating content. The editor supports
+              management of multiple blogs and allows easy manipulation of
+              embeds such as images, videos, and Markdown. Extensibility with
+              plugins and themes provide easy ways to add functionality or
+              change the looks of a blog.
+            </p>
+
+            <h2>Robust content management</h2>
+            <p>Flexible content management enables users to easily move through posts.
+              Increase the usability of your blog by adding customized categories,
+              sections, format, or flow. With this functionality, you’re in full control.</p>
+          </div>
+          </div>
+          <div class="img-container2">
+          <img src="./images/illustration-editor-desktop.svg" alt="">
+          </div>
+        </div>
+        <div class="phone-container">
+          <div class="phones">
+            <img src="./images/illustration-phones.svg" alt="">
+          </div>
+        </div>
+        <div class="section2">
+          <div class="img-container3">
+            <img src="./images/bg-pattern-circles.svg" alt="">
+          </div>
+          <div class="section2-content">
+            <h1>State of the Art Infrastructure</h1>
+            <p>With reliability and speed in mind,
+              worldwide data centers provide the backbone for ultra-fast connectivity.
+              This ensures your site will load instantly, no matter where your readers
+              are, keeping your site competitive.</p>
+          </div>
+        </div>
+        <div class="section3">
+          <div class="img-container5" id="free">
+            <img src="./images/illustration-laptop-desktop.svg" alt="">
+            </div>
+          
+          <div class="section3-content">
+            <h2>Free, open, simple</h2>
+
+            <p>Blogr is a free and
+              open source application backed by a large community of helpful developers.
+              It supports features such as code syntax highlighting, RSS feeds, social
+              media integration, third-party commenting tools, and works seamlessly with
+              Google Analytics. The architecture is clean and is relatively easy to learn.</p>
+
+              <h2>Powerful tooling</h2>
+
+              <p>Batteries included. We built a simple and straightforward
+                CLI tool that makes customization and deployment a breeze, but capable of
+                producing even the most complicated sites.</p>
+            
+          </div>
+        </div>
+        <div class="section4">
+          <div class="col1">
+            <img src="./images/logo.svg" alt="">
+          </div>
+          <div class="col2">
+            <ul>
+             <a href="#">Product</a><br><a href="#">Overview</a><a href="#">Pricing</a><a href="#">Marketplace</a><a href="#">Features</a><a href="#"> Integrations</a>   
+     
+            </ul>
+          </div>
+          <div class="col2">
+            <ul>
+             <a href="#">Company</a><br><a href="#">About</a><a href="#">Team</a><a href="#">Blog</a><a href="#">Careers</a>
+     
+            </ul>
+          </div>
+          <div class="col2">
+            <ul>
+             <a href="#">Connect</a><br><a href="#">Contact</a><a href="#">Newsletter</a><a href="#">LinkedIn</a>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!---
+
+        <div class="phones">
+          <img src="./images/illustration-phones.svg" alt="">
+        </div>
+    Product Overview    Company 
+         LinkedIn Login Sign Up A modern
+    publishing platform Grow your audience and build your online brand Start for
+    Free Learn More Designed for the future Introducing an extensible editor
+    Blogr features an exceedingly intuitive interface which lets you focus on
+    one thing: creating content. The editor supports management of multiple
+    blogs and allows easy manipulation of embeds such as images, videos, and
+    Markdown. Extensibility with plugins and themes provide easy ways to add
+    functionality or change the looks of a blog. Robust content management
+    Flexible content management enables users to easily move through posts.
+    Increase the usability of your blog by adding customized categories,
+    sections, format, or flow. With this functionality, you’re in full control.
+    State of the Art Infrastructure With reliability and speed in mind,
+    worldwide data centers provide the backbone for ultra-fast connectivity.
+    This ensures your site will load instantly, no matter where your readers
+    are, keeping your site competitive. Free, open, simple Blogr is a free and
+    open source application backed by a large community of helpful developers.
+    It supports features such as code syntax highlighting, RSS feeds, social
+    media integration, third-party commenting tools, and works seamlessly with
+    Google Analytics. The architecture is clean and is relatively easy to learn.
+    Powerful tooling Batteries included. We built a simple and straightforward
+    CLI tool that makes customization and deployment a breeze, but capable of
+    producing even the most complicated sites. Product Overview Pricing
+    Marketplace Features Integrations Company About Team Blog Careers Connect
+    Contact Newsletter LinkedIn
+  -->
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
